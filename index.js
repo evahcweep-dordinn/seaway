@@ -42,7 +42,7 @@ client.on('message', (message) => {
          const command = args.shift().toLowerCase();
 
          if (command === "version") {
-         message.channel.send('**Seaway Gens Bot**\n🟢 Online\n🛠 *Running Seaway Gens bot test build Version 1.1.2*')
+         message.channel.send('**Seaway Gens Bot**\n🟢 Online\n🛠 *Running Seaway Gens bot main build Version 1.1.2*')
          message.client.channels.cache.get(logs).send('Version command executed by ' + message.author.id);
          }
          if (command === "8ball") {
